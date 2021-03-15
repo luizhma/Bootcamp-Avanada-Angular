@@ -8,7 +8,7 @@ Como entrada, o projeto recebe 3 valores correspondentes a A, B e C, para que as
 
 <p>As informações dos componentes são trocadas através de data binding de propriedade [propriedade]="valor" e interpolação{{Valor}}. Todo tamplate usado foi adquirido através do <strong>Angular Material.</strong></p>
 
-![image-20210315142017363](C:\Users\Dodoh\AppData\Roaming\Typora\typora-user-images\image-20210315142017363.png)
+![image-20210315142017363](\src\assets\image-20210315142017363.png)
 
 <p>Para uma explicação um pouco mais detalhada do código do projeto clique no link abaixo para assistir o vídeo. </p>
 
