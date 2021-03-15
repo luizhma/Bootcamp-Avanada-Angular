@@ -1,0 +1,39 @@
+<mat-card>
+  <mat-card-title>Equação 2° Grau
+
+      <mat-icon aria-hidden="false" aria-label="Example home icon">calculate</mat-icon>
+
+  </mat-card-title>
+  
+</mat-card>
+
+<form [formGroup]="calcProfileForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+        <mat-label>Valor A</mat-label>
+        <input matInput type="number" formControlName="valorA"> 
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="fill">
+        <mat-label>Valor B</mat-label>
+        <input matInput type="number" formControlName="valorB"> 
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="fill">
+        <mat-label>Valor C</mat-label>
+        <input matInput type="number" formControlName="valorC"> 
+      </mat-form-field>
+      <br>
+    <button mat-raised-button color="primary" type="submit">Calcular</button>
+
+
+    
+    <mat-card>
+      <mat-card-title>Resultado</mat-card-title>
+      <spa-a [a]="valueA"><br></spa-a>
+      <spa-b [b]="valueB"><br></spa-b>
+      <spa-c [c]="valueC"><br></spa-c>
+      <mat-card-content>O valor para X1 é: {{ x1 }} <br> O valor para X2 é: {{ x2 }}</mat-card-content>
+      
+  </mat-card>
+
+</form>
